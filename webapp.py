@@ -67,3 +67,19 @@ with tab2:
                 possibly making it harder for the Machine Learning model to distinguish between one another. Whereas Daisy, Dandelion, and Sunflowers 
                 are more spread apart from one another.
                 """)
+    col1,col2 = st.columns(2)
+    with col1:
+        st.image('TrainingAndValidationAccuracy.jpeg', width=400)
+    
+    with col2:
+        st.image('TrainingAndValidationLoss.jpeg',width=400)
+    st.markdown("""
+                The dataset that was collected was split into an 80/20 split; 80% of the dataset was used for training the model, and 20% was used for testing. 
+                The results of using this validation method showed the training accuracy of the model was  86%, validation accuracy was 57%. The training loss was 39% and the validation loss was over 140%. 
+                
+
+
+
+
+
+""")
