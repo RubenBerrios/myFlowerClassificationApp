@@ -1,7 +1,7 @@
 pandas
 numpy
 Pillow
-keras
-streamlit
+keras==3.6.0
+streamlit==1.40.0
 scikit-learn
 tensorflow
