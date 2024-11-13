@@ -51,4 +51,5 @@ For each image in the dataset, we extracted the independent average RGB value ov
 |Training and validation accuracy| Training and Validation Loss|
 |---|---|
 |![screenshot](TrainingAndValidationAccuracy.jpeg)|![screenshot](TrainingAndValidationLoss.jpeg)|
+
 For the machine learning model that was created, a hold-out validation method was used. The dataset that was collected was split into an 80/20 split; 80% of the dataset was used for training the model, and 20% was used for testing. The results of using this validation method show the training accuracy of the model was  75%, and the validation accuracy was 70%. The training loss was 65% and the validation loss was approximately 80%.
