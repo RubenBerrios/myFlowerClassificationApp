@@ -4,7 +4,9 @@
 
 ### Technologies used
 **Programming Language: Python**
+
 **IDE: PyCharm**
+
 The application utilizes a jupyter notebook to create a Machine Learning model, and uses the open-source python framework, streamlit, to host the application.
 
 ```
